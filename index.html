@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Modern Portfolio</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <button class="toggle-theme" onclick="toggleTheme()">Toggle Theme</button>
+  </header>
+
+  <div class="section">
+    <h2>About Me</h2>
+    <p>I’m a student passionate about technology, design, and building things that make life easier. I enjoy learning new tools and turning ideas into real, useful products.</p>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li>🌤️ Weather App — Real-time weather updates using API</li>
+      <li>🖼️ Portfolio Website — The site you're viewing now</li>
+      <li>📝 Todo List — Task manager with localStorage support</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>Contact me at: <a href="mailto:your-email@example.com" style="color: var(--accent-color); text-decoration: none;">your-email@example.com</a></p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
